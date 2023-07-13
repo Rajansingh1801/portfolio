@@ -1,0 +1,213 @@
+* {
+  padding: 0%;
+  margin: 0;
+  transition: 500ms;
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courgette", cursive;
+  color: white;
+}
+
+p,
+span,
+li,
+a {
+  font-family: cursive;
+  color: white;
+}
+
+.ps-5 {
+  padding-right: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+nav {
+  position: fixed;
+  top: 20%;
+  left: 40px;
+  z-index: 2;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  margin: 18px 0px;
+  padding: 12px 8px;
+  background-color: white;
+  border-radius: 30px;
+  width: 50%;
+}
+nav ul li a {
+  color: black;
+  font-weight: 900;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li a span {
+  color: black;
+  white-space: nowrap;
+  display: none;
+}
+nav ul li a img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+nav ul li:hover span {
+  display: block;
+}
+nav ul li:hover {
+  width: 100%;
+}
+
+main section {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+main section .index-img {
+  width: 100%;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .sec1-cont {
+  position: absolute;
+  left: 10%;
+  right: 0;
+  top: 40%;
+  bottom: 0;
+  margin: auto;
+}
+main section .sec1-cont h3 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+main section .sec1-cont h1 {
+  color: white;
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+main section .sec1-cont p {
+  font-size: 28px;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+main .aboutme {
+  transition: 1s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+main .aboutme div {
+  padding-left: 100px;
+}
+main .aboutme div ul {
+  list-style: none;
+}
+main .aboutme div ul li {
+  text-decoration: none;
+}
+main .aboutme div ul li a {
+  text-decoration: none;
+}
+main .aboutme div p {
+  font-size: 24px;
+  padding: 70px 50px;
+}
+main .work {
+  display: flex;
+  align-items: center;
+}
+main div {
+  padding-left: 200px;
+}
+main div h3 {
+  font-size: 50px;
+  letter-spacing: 5px;
+}
+main div span {
+  padding-top: 10px;
+  font-size: 24px;
+  text-decoration: underline;
+}
+main div p {
+  padding-top: 20px;
+}
+main div ul {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+main div li {
+  padding: 5px 20px;
+  font-size: 18px;
+}
+main .education {
+  display: flex;
+  align-items: center;
+}
+main .education div {
+  padding-left: 100px;
+  margin-bottom: 30px;
+}
+main .education div h3 {
+  font-size: 24px;
+}
+main .education div p {
+  font-size: 20px;
+}
+main .education div ul {
+  padding-top: 0;
+}
+main .skill {
+  display: flex;
+  align-items: center;
+}
+main .skill div ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .skill div ul li .ps-5 {
+  padding-right: 50px;
+}
+main .skill div ul li span {
+  text-decoration: none;
+}
+main .skill div ul li .bx {
+  padding: 0px 3px;
+}
+main .project {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+main .project div {
+  padding-left: 100px;
+}
+main .project div h3 {
+  font-size: 30px;
+}
+main .project div span {
+  font-size: 14px;
+}
+main .project hr {
+  background-color: white;
+  height: 2px;
+  margin: 16px 0px;
+}/*# sourceMappingURL=style.css.map */
