@@ -212,4 +212,14 @@ main {
       margin: 16px 0px;
     }
   }
+  .other {
+    display: flex;
+    align-items: center;
+    hr {
+      margin: 32px 0px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+  }
 }
