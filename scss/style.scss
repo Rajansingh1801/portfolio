@@ -4,6 +4,9 @@
   transition: 5000ms;
   font-family: inherit;
 }
+html {
+  scroll-behavior: smooth;
+}
 h1,
 h2,
 h3,
