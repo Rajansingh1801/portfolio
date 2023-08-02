@@ -123,7 +123,7 @@ main section .sec1-cont {
 }
 @media (max-width: 576px) {
   main section .sec1-cont {
-    left: 12%;
+    left: 0%;
     top: 60%;
   }
 }
