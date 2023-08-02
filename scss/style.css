@@ -41,6 +41,11 @@ nav {
   left: 40px;
   z-index: 2;
 }
+@media (max-width: 576px) {
+  nav {
+    left: 10px;
+  }
+}
 nav ul {
   list-style: none;
 }
@@ -49,7 +54,7 @@ nav ul li {
   padding: 12px 8px;
   background-color: white;
   border-radius: 30px;
-  width: 50%;
+  width: 18%;
 }
 nav ul li a {
   color: black;
@@ -61,7 +66,7 @@ nav ul li a {
 nav ul li a span {
   color: black;
   white-space: nowrap;
-  display: none;
+  opacity: 0;
 }
 nav ul li a img {
   width: 30px;
@@ -69,22 +74,29 @@ nav ul li a img {
   margin-right: 20px;
 }
 nav ul li:hover span {
-  display: block;
+  opacity: 1;
 }
 nav ul li:hover {
   width: 100%;
 }
 
 main section {
-  background-color: black;
+  background-color: #070812;
   width: 100%;
   height: 100vh;
+}
+@media (max-width: 576px) {
+  main section {
+    height: 100%;
+    padding: 20px 0px;
+  }
 }
 main section .index-img {
   width: 100%;
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
+  mix-blend-mode: inherit;
 }
 main section .sec1-cont {
   position: absolute;
@@ -94,15 +106,42 @@ main section .sec1-cont {
   bottom: 0;
   margin: auto;
 }
+@media (max-width: 1200px) {
+  main section .sec1-cont {
+    left: 4%;
+  }
+}
+@media (max-width: 992px) {
+  main section .sec1-cont {
+    left: 0%;
+    top: 50%;
+  }
+}
+@media (max-width: 576px) {
+  main section .sec1-cont {
+    left: 12%;
+    top: 60%;
+  }
+}
 main section .sec1-cont h3 {
   color: white;
   font-size: 40px;
   letter-spacing: 5px;
 }
+@media (max-width: 576px) {
+  main section .sec1-cont h3 {
+    font-size: 25px;
+  }
+}
 main section .sec1-cont h1 {
   color: white;
   font-size: 60px;
   letter-spacing: 5px;
+}
+@media (max-width: 576px) {
+  main section .sec1-cont h1 {
+    font-size: 40px;
+  }
 }
 main section .sec1-cont p {
   font-size: 28px;
@@ -116,6 +155,11 @@ main .aboutme {
 }
 main .aboutme div {
   padding-left: 100px;
+}
+@media (max-width: 576px) {
+  main .aboutme div {
+    padding-left: 30px;
+  }
 }
 main .aboutme div ul {
   list-style: none;
@@ -136,6 +180,11 @@ main .work {
 }
 main div {
   padding-left: 200px;
+}
+@media (max-width: 576px) {
+  main div {
+    padding-left: 100px;
+  }
 }
 main div h3 {
   font-size: 50px;
@@ -161,9 +210,19 @@ main .education {
   display: flex;
   align-items: center;
 }
+@media (max-width: 576px) {
+  main .education {
+    padding: 20px 0px;
+  }
+}
 main .education div {
   padding-left: 100px;
   margin-bottom: 30px;
+}
+@media (max-width: 576px) {
+  main .education div {
+    padding-left: 50px;
+  }
 }
 main .education div h3 {
   font-size: 24px;
@@ -186,6 +245,11 @@ main .skill div ul li {
 main .skill div ul li .ps-5 {
   padding-right: 50px;
 }
+@media (max-width: 400px) {
+  main .skill div ul li .ps-5 {
+    padding-right: 0px;
+  }
+}
 main .skill div ul li span {
   text-decoration: none;
 }
@@ -200,8 +264,16 @@ main .project {
 main .project div {
   padding-left: 100px;
 }
+@media (max-width: 576px) {
+  main .project div {
+    padding-left: 50px;
+  }
+}
 main .project div h3 {
   font-size: 30px;
+}
+main .project div p {
+  font-size: 20px;
 }
 main .project div span {
   font-size: 14px;
@@ -220,4 +292,28 @@ main .other hr {
 }
 main .other h3 {
   font-size: 24px;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: "Chela";
+  margin-left: 50px;
+  border-bottom: 2px solid white;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.d-flex-md {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .d-flex-md {
+    display: flex;
+  }
+}
+@media (max-width: 576px) {
+  section {
+    height: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
