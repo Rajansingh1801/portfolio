@@ -105,7 +105,6 @@ main section .main {
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;
-  width: 100%;
   height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
