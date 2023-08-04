@@ -110,6 +110,11 @@ main section .main {
      object-fit: cover;
   mix-blend-mode: inherit;
 }
+@media (max-width: 992px) {
+  main section .main {
+    background-position: center;
+  }
+}
 main section .sec1-cont {
   position: absolute;
   left: 10%;
