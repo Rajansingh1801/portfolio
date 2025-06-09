@@ -234,8 +234,10 @@ main {
     align-items: center;
     div {
       ul {
+        list-style: disc;
         li {
           display: flex;
+          margin-block: 24px;
           align-items: center;
           justify-content: space-between;
           .ps-5 {
